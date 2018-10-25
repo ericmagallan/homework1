@@ -88,4 +88,42 @@ nav a: first-child {
 }
 
 /* main */
-#main-container
+#main-container {
+    padding-top: 130px;
+}
+
+.main-section {
+    background: #fff;
+    padding: 30px;
+    margin: 0 0 40px 0;
+    width: 100%;
+    max-width: 650px;
+    float: left;
+    border: 1px solid #ddd;
+}
+
+.auth-image {
+        width: 200px;
+        height: auto;
+        margin-top: 10px;
+        float: left;
+        margin-right: 25px;
+}
+
+/* sidebar */
+.sidebar {
+    background: #fff;
+    padding: 30px;
+    width: 100%;
+    max-width: 270px;
+    float: right;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+h3, .sidebar, h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+}

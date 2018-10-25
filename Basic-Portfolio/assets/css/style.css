@@ -3,11 +3,12 @@
 
 }
 
-body{
+body {
+    background: url("spiration-light.png");
     font-size: 18px;
     line-height: 34px;
     font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-    color: #777
+    color: #777 
 }
 
 .container {
@@ -21,7 +22,7 @@ h1, h2, h3, p {
     margin-bottom: 0;
 }
 
-p: :last-child {
+p :last-child {
     margin-bottom: 0;
 }
 
@@ -83,7 +84,7 @@ nav a {
     line-height: 18px;
 }
 
-nav a: first-child {
+nav a:first-child {
     border-left: 0 none;
 }
 
@@ -97,7 +98,7 @@ nav a: first-child {
     padding: 30px;
     margin: 0 0 40px 0;
     width: 100%;
-    max-width: 650px;
+    max-width: 300px;
     float: left;
     border: 1px solid #ddd;
 }
@@ -126,4 +127,28 @@ h3, .sidebar, h2 {
     padding-bottom: 20px;
     margin-bottom: 15px;
     line-height: 22px;
+}
+
+.social {
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+
+.social:last-child {
+    margin-right: 0;
+}
+
+/* footer */
+
+footer {
+    background: #666;
+    color: #fff;
+    padding: 30px 0;
+    clear: both;
+    border-top: 8px solid #4aaaa5;
+    color: #ccc;
+    font-size: 12px;
+    text-align: center;
 }

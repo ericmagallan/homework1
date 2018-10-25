@@ -17,6 +17,31 @@ body{
     clear: both;
 }
 
+h1, h2, h3, p {
+    margin-bottom: 0;
+}
+
+p: :last-child {
+    margin-bottom: 0;
+}
+
+h1, h2, h3, {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #4aaaa5;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
+    padding-bottom: 20px;
+}
+
+h2, h3 {
+    font-size: 22px;
+}
+
 /* header */
 #masthead {
     background: #fff;
@@ -47,6 +72,7 @@ nav {
     float: right;
     margin-top: 25px;
 }
+
 nav a {
     color: #999;
     text-decoration: none;
@@ -56,3 +82,10 @@ nav a {
     padding-left: 15px;
     line-height: 18px;
 }
+
+nav a: first-child {
+    border-left: 0 none;
+}
+
+/* main */
+#main-container
